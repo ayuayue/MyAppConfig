@@ -13,6 +13,11 @@
   // custom start
   "theme": "light",
   "tabWidthMode": "compact",
+  "confirmCloseAllTabs": false,
+  "launchMode": "default",
+  "initialPosition": "180,50",
+  "initialCols": 140,
+  "initialRows": 30,
   // custom end
 
   // You can add more global application settings here.
@@ -40,10 +45,11 @@
         "commandline": "powershell.exe",
         "startingDirectory": ".",
         "fontFace": "Cascadia Code PL",
-        "acrylicOpacity": 0.8,
-        "cursorColor": "#000000",
+        "acrylicOpacity": 1,
+        "cursorColor": "#ffffff",
         "useAcrylic": true,
         "colorScheme": "One Half Dark",
+        "antialiasingMode": "cleartype",
         "hidden": false
       },
       {
@@ -58,6 +64,19 @@
         "hidden": true,
         "name": "Azure Cloud Shell",
         "source": "Windows.Terminal.Azure"
+      },
+      {
+        "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+        "hidden": false,
+        "name": "Ubuntu-20.04",
+        "source": "Windows.Terminal.Wsl",
+        "fontFace": "Cascadia Code PL",
+        "startingDirectory": "Z:\\home\\",
+        "acrylicOpacity": 1,
+        "cursorColor": "#ffffff",
+        "useAcrylic": true,
+        "colorScheme": "One Half Dark",
+        "antialiasingMode": "cleartype"
       }
     ]
   },
