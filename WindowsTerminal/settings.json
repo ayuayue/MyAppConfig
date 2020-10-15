@@ -13,11 +13,6 @@
   // custom start
   "theme": "light",
   "tabWidthMode": "compact",
-  "confirmCloseAllTabs": false,
-  "launchMode": "default",
-  "initialPosition": "180,50",
-  "initialCols": 140,
-  "initialRows": 30,
   // custom end
 
   // You can add more global application settings here.
@@ -45,13 +40,10 @@
         "commandline": "powershell.exe",
         "startingDirectory": ".",
         "fontFace": "Cascadia Code PL",
-        // "fontFace": "Delugia Nerd Font",
-        "acrylicOpacity": 1,
-        "closeOnExit": false,
+        "acrylicOpacity": 0.8,
         "cursorColor": "#000000",
         "useAcrylic": true,
-        "colorScheme": "Campbell",
-        "antialiasingMode": "cleartype",
+        "colorScheme": "One Half Dark",
         "hidden": false
       },
       {
@@ -66,53 +58,13 @@
         "hidden": true,
         "name": "Azure Cloud Shell",
         "source": "Windows.Terminal.Azure"
-      },
-      {
-        "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-        "hidden": false,
-        "name": "Ubuntu-20.04",
-        "source": "Windows.Terminal.Wsl",
-        "fontFace": "Cascadia Code PL",
-        "startingDirectory": "Z:\\home\\",
-        "acrylicOpacity": 1,
-        "cursorColor": "#ffffff",
-        "useAcrylic": true,
-        "colorScheme": "One Half Dark",
-        "antialiasingMode": "cleartype"
       }
     ]
   },
 
   // Add custom color schemes to this array.
   // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
-  "schemes": [
-    {
-      "name": "Campbell",
-
-      "cursorColor": "#FFFFFF",
-      "selectionBackground": "#000000",
-
-      "background": "#ffffff",
-      "foreground": "#000000",
-
-      "black": "#393D49",
-      "blue": "#1E9FFF",
-      "cyan": "#5FB878",
-      "green": "#009688",
-      "purple": "#881798",
-      "red": "#C50F1F",
-      "white": "#d2d2d2",
-      "yellow": "#FFB800",
-      "brightBlack": "#2F4056",
-      "brightBlue": "#01AAED",
-      "brightCyan": "#61D6D6",
-      "brightGreen": "#5FB878",
-      "brightPurple": "#B4009E",
-      "brightRed": "#E74856",
-      "brightWhite": "#c2c2c2",
-      "brightYellow": "#FF5722"
-    }
-  ],
+  "schemes": [],
 
   // Add custom keybindings to this array.
   // To unbind a key combination from your defaults.json, set the command to "unbound".
