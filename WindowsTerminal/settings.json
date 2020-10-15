@@ -45,10 +45,12 @@
         "commandline": "powershell.exe",
         "startingDirectory": ".",
         "fontFace": "Cascadia Code PL",
+        // "fontFace": "Delugia Nerd Font",
         "acrylicOpacity": 1,
-        "cursorColor": "#ffffff",
+        "closeOnExit": false,
+        "cursorColor": "#000000",
         "useAcrylic": true,
-        "colorScheme": "One Half Dark",
+        "colorScheme": "Campbell",
         "antialiasingMode": "cleartype",
         "hidden": false
       },
@@ -83,7 +85,34 @@
 
   // Add custom color schemes to this array.
   // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
-  "schemes": [],
+  "schemes": [
+    {
+      "name": "Campbell",
+
+      "cursorColor": "#FFFFFF",
+      "selectionBackground": "#000000",
+
+      "background": "#ffffff",
+      "foreground": "#000000",
+
+      "black": "#393D49",
+      "blue": "#1E9FFF",
+      "cyan": "#5FB878",
+      "green": "#009688",
+      "purple": "#881798",
+      "red": "#C50F1F",
+      "white": "#d2d2d2",
+      "yellow": "#FFB800",
+      "brightBlack": "#2F4056",
+      "brightBlue": "#01AAED",
+      "brightCyan": "#61D6D6",
+      "brightGreen": "#5FB878",
+      "brightPurple": "#B4009E",
+      "brightRed": "#E74856",
+      "brightWhite": "#c2c2c2",
+      "brightYellow": "#FF5722"
+    }
+  ],
 
   // Add custom keybindings to this array.
   // To unbind a key combination from your defaults.json, set the command to "unbound".
